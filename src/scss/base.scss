@@ -1,0 +1,149 @@
+@mixin nav($bg) {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 75px;
+    background: $bg;
+    cursor: pointer;
+}
+.base {
+    &__head {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+        padding-top: 90px;
+        color: #00213c;
+
+        &_text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 29px;
+
+            color: #000000;
+        }
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+        padding-top: 26px;
+        color: #00213c;
+    }
+
+    &__first {
+        
+
+        &_img-vertical {
+            position: absolute;
+            &_middle {
+                padding-left: 130px;
+                position: absolute;
+            }
+        }
+
+        &_img-horizontal {
+            position: relative;
+            top: 223px;
+            left: 69px;
+            &_middle {
+                padding-left: 100px;
+                position: relative;
+                top: 223px;
+                right: 69px;
+            }
+        }
+
+        &_title {
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 69px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+
+        &_subtitle {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding-bottom: 23px;
+            color: #000000;
+            position: relative;
+            &-drop {
+              position: absolute;
+              left: -25px;
+              
+            }
+        }
+
+        &_subtitle-text {
+            padding-top: 13px;
+        }
+
+        &_arrow {
+            padding-left: 8px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+            text-decoration: none;
+            color: #000000;
+        }
+
+        &_price {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 43px;
+            color: #000000;
+            padding-top: 43px;
+            text-align: end;
+            &-middle {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 43px;
+                color: #000000;
+                padding-top: 43px;
+            }
+        }
+
+        &_btn {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #ffffff;
+            background: #f93264;
+            padding: 9px 41px;
+            text-decoration: none;
+            margin-left: 20px;
+            &:hover {
+            }
+        }
+    }
+}
+
+.base-block1 {
+    padding: 94px 0 64px;
+}
+
+.col-xl-8 {
+}
+.base-block2 {
+    padding: 94px 0 64px;
+}
+.base-block3 {
+    padding: 94px 0 64px;
+}
+
+
+

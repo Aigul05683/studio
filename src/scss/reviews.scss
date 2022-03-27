@@ -1,0 +1,81 @@
+@mixin nav($bg) {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 75px;
+    background: $bg;
+    font-size: 0;
+    cursor: pointer;
+}
+.reviews {
+    background: url("../img/reviews/bg.png") no-repeat;
+    background-position: top right;
+    padding: 135px 0 120px;
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+
+        color: #002d53;
+    }
+    & .reviews-slide {
+        max-width: 380px;
+        margin: 0px auto;
+        padding-top: 298px;
+        transition-duration: 300ms;
+        
+        &__img {
+            // width: 100%;
+            object-fit: cover;
+            margin-bottom: 13px;
+
+            &-1 {
+                padding: 14px 9px;
+                background: #f8bc18;
+            }
+            &-2 {
+                background: #fa3465;
+                padding: 14px 9px;
+            }
+            &-3 {
+                background: #7538fe;
+                padding: 14px 9px;
+            }
+        }
+    }
+
+    & .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 57%;
+        width: 100%;
+        transform: translateY(-50%);
+        height: 75px;
+        & .customNext {
+            @include nav(url("../img/reviews/nextbtn.png"));
+            right: -60px;
+            background: url("../img/reviews/nextbtn.png") center/cover;
+        }
+        & .customPrev {
+            @include nav(url("../img/reviews/prev.png"));
+            left: -60px;
+            background: url("../img/reviews/prevbtn.png") center/cover;
+        }
+        owl-dot {
+        }
+    }
+}
+.center {
+    top: -105px;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.owl-stage {
+    
+}
+

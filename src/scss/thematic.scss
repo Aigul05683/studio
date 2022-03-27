@@ -1,0 +1,179 @@
+.thematic {
+    padding-top: 90px;
+    &__name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+        padding-top: 26px;
+        color: #00213c;
+    }
+
+    &__first {
+        
+        &_img-vertical {
+            position: absolute;
+            &_middle {
+                padding-left: 125px;
+                position: absolute;
+            }
+        }
+
+        &_img-horizontal {
+            position: relative;
+            top: 223px;
+            left: 69px;
+            &_middle {
+                padding-left: 100px;
+                position: relative;
+                top: 223px;
+                right: 69px;
+            }
+        }
+
+        &_title {
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 69px;
+            text-transform: uppercase;
+            color: #000000;
+            
+        }
+
+        &_subtitle {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding-bottom: 23px;
+            color: #000000;
+            position: relative;
+            &-drop {
+                position: absolute;
+                left: -25px;
+                
+            }
+        }
+
+        &_subtitle-text {
+            padding-top: 13px;
+        }
+
+        &_arrow {
+            padding-left: 8px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+            text-decoration: none;
+            color: #000000;
+            display: inline;
+        }
+
+        &_price {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 43px;
+            color: #000000;
+            padding-top: 43px;
+            text-align: end;
+            &-middle {
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 43px;
+                color: #000000;
+                padding-top: 43px;
+            }
+        }
+
+        &_btn {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #ffffff;
+            background: #f93264;
+            padding: 9px 41px;
+            text-decoration: none;
+            margin-left: 20px;
+            &:hover {
+            }
+        }
+    }
+}
+
+.offer {
+    text-align: center;
+    &_text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+        padding-bottom: 31px;
+    }
+
+    &_btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        /* identical to box height */
+        color: #ffffff;
+        background: #0089fd;
+        padding: 9px 34px;
+        text-decoration: none;
+    }
+}
+
+.thematic-block1 {
+    padding: 94px 0 64px;
+}
+
+.thematic-block2 {
+    padding: 94px 0px 64px 30px;
+}
+.thematic-block3 {
+    padding: 94px 0 64px;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+
+.thematic {
+    & .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 57%;
+        width: 100%;
+        transform: translateY(-50%);
+        height: 75px;
+        & .owl-next,
+        .owl-prev {
+            &.disabled {
+                display: none;
+            }
+        }
+        & .owl-next {
+            @include nav(url("../img/reviews/nextbtn.png"));
+            right: -60px;
+            background: url("../img/reviews/nextbtn.png") center/cover;
+        }
+        & .owl-prev {
+            @include nav(url("../img/reviews/prev.png"));
+            left: -40px;
+            background: url("../img/reviews/prevbtn.png") center/cover;
+        }
+        owl-dot {
+        }
+    }
+}
+

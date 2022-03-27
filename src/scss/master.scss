@@ -1,0 +1,66 @@
+.master {
+    margin-left: 60px;
+    &__img{
+        background: url('../img/master/1bg.png') no-repeat;
+        padding-left: 58px;
+        padding-bottom: 60px;
+        background-position: 70% 60%;
+        
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+        margin-left: -60px;
+        color: #00213c;
+    }
+
+    &__text1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 38px;
+        color: #000000;
+        padding-top: 52px;
+        &_name{
+            padding-top: 52px;
+        }
+    }
+
+    &__text2 {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        padding-top: 23px;
+        &_blue{
+            color:#0088FE;
+        }
+        &_sub1 {
+            padding-top: 10px;
+        }
+
+        &_sub2 {
+            padding-top: 10px;
+        }
+    }
+
+    &__text3 {
+        &_sub3 {
+            padding-top: 10px;
+        }
+    }
+
+    &__text4 {
+        &_sub4 {
+            padding-top: 10px;
+        }
+    }
+}
+#master__photo{
+    display: none;
+}

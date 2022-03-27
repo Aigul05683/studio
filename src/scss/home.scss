@@ -1,0 +1,106 @@
+.home {
+    background: url("../img/home/titlebg.png") center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    &__title {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 139px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1c2d59;
+        margin-top: 110px;
+        margin-left: 78px;
+        position: relative;
+        
+        &_opacity {
+            font-family: 'Montserrat';
+            // font-family: "Jost";
+            position: absolute;
+            top: 65px;
+            left: 210px;
+            // text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+            // mix-blend-mode: lighten;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 2px white;
+            border-color: transparentize($color: #eee5e5, $amount: 0);
+            
+            
+        }
+    }
+
+    &__subtitle {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 116.5%;
+        /* or 44px */
+        text-align: center;
+        color: #00213c;
+        margin-top: 80px;
+        margin-left: -12px;
+    }
+    &__text1 {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        /* identical to box height */
+        text-align: center;
+        color: #152836;
+        margin-top: 10px;
+    }
+    &__text2 {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+        color: #152836;
+        margin-top: 6px;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 29px;
+        &_left {
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #595858;
+            text-decoration: none;
+            margin-right: 35px;
+            padding: 9px 41px;
+            &:hover {
+                color: #ffffff;
+                background: #f93264;
+            }
+        }
+        &_right {
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #595858;
+            text-decoration: none;
+            padding: 9px 41px;
+            margin-right: 50px;
+            &:hover {
+                color: #ffffff;
+                background: #f93264;
+            }
+        }
+    }
+}
