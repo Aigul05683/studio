@@ -1,0 +1,102 @@
+.faq {
+    &__title {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 55px;
+        /* identical to box height */
+        color: #002d53;
+        padding-top: 96px;
+    }
+
+    &__item {
+        padding-top: 61px;
+    }
+
+    &__offer {
+        padding-top: 134px;
+        text-align: center;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    &__btn {
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 153px;
+
+        &_left {
+            padding: 9px 18px;
+            text-decoration: none;
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #595858;
+            &:hover {
+                background: #f93264;
+                color: #ffffff;
+            }
+        }
+
+        &_right {
+            padding: 9px 18px;
+            text-decoration: none;
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #595858;
+            &:hover {
+                background: #f93264;
+                color: #ffffff;
+            }
+        }
+    }
+}
+.container {
+}
+.accordion {
+}
+.accordion-flush {
+}
+.accordion-item {
+}
+.accordion-header {
+}
+.accordion-button {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.collapsed {
+}
+.accordion-collapse {
+}
+.collapse {
+}
+.accordion-body {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #000000;
+}
